@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UjangApps</string>
+    <string name="nama_ujang">Ujang bin Ucup</string>
+
+    <string-array name="kelas">
+        <item>select</item>
+        <item>Ekonomi</item>
+        <item>Bisnis</item>
+        <item>Eksekutif</item>
+    </string-array>
+
+    <string-array name="penumpang">
+        <item>select</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="bayi">
+        <item>select</item>
+        <item>0 bayi</item>
+        <item>1 bayi</item>
+        <item>2 bayi</item>
+        <item>3 bayi</item>
+        <item>4 bayi</item>
+    </string-array>
+</resources>
