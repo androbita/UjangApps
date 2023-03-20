@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <RelativeLayout
+        android:id="@+id/RL_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark">
+        <ImageView
+            android:id="@+id/logo_kai"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/kai"/>
+
+        <ImageView
+            android:id="@+id/logo_keranjang"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/keranjang"
+            android:layout_toRightOf="@id/logo_kai"
+            android:layout_marginLeft="120dp"/>
+    </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/LL_crs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/RL_header"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/crs_1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/crs_1"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/crs_2"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/crs_2"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_lihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Semua"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_below="@id/LL_crs"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"/>
+
+</RelativeLayout>
