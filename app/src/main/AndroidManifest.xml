@@ -13,9 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
-
         <activity
-            android:name=".RelativeActivity"
+            android:name=".RegistrationLayoutFile"
+            android:exported="false" />
+        <activity
+            android:name=".ListenerInterface"
+            android:exported="false" />
+        <activity
+            android:name=".ListAct"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".ComponentAct"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,12 +36,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ConstraintAct"
+            android:exported="true" />
+        <activity
+            android:name=".RelativeActivity"
+            android:exported="true" />
+        <activity
             android:name=".SecondActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
